@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react';
 
 import { TextInputProps } from 'react-native';
 
+import api from 'src/services/api';
 import { Container, TextInput, Icon } from './styles';
 
 interface InputProps extends TextInputProps {
